@@ -22,4 +22,19 @@ function App() {
   );
 }
 
+
+
+// src/App.js
+import React from 'react';
+import PhaserGame from './PhaserGame';
+
+function App() {
+    return (
+        <div className="App">
+            <h1>React with Phaser</h1>
+            <PhaserGame />
+        </div>
+    );
+}
+
 export default App;
